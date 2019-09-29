@@ -47,6 +47,18 @@
  </tr>
 </table>
 </div>
+<div id="lists">
+<p>The steps that happen in the figure above:</p>
+<ul>
+  <li>When a user types in a url, that query is sent to a DNS Server first.</li>
+  <li>DNS Server maps the url to an public IP address and sends it back to the client.</li>
+  <li>A HTTP request with query parameters and headers are sent to the server.</li>
+  <li>The load balancer based on the loads of each of the servers will send the request to one of them.</li>
+  <li>App server will do some computations, meanwhile interacting with some Database.</li>
+  <li>The database will pull up some stored data based on the query.</li>
+  <li>The server finally sends the HTTP response with the content back to the client.</li>
+</ul>
+</div>
 <div id="links">
 <a href="https://github.com/Swaroo/291A-Website">If you want to know more about how all of this is done, click here</a>
 </div>
