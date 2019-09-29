@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
 <head>
 <title>Life Cycle of a Web Site</title>
 </head>
 
 <body>
 <div id="head">
-<b1> What happens when you type in www.google.com?</b1>
+<h1> What happens when you type in www.google.com?</h1>
 </div>
 <div id="images">
 <img src="HttpRequestResponse.jpg" alt="Request Response Cycle" height="600" width="800">
+</div>
+<div id="tables">
+<table>
+ <tr>
+   <th>Serial No.</th>
+   <th>Component</th>
+   <th>Description</th>
+ </tr>
+ <tr>
+   <th>1</th>
+   <th>Client</th>
+   <th>Usually a browser the user uses like Chrome, Firefox, etc</th>
+ </tr>
+ <tr>
+   <th>2</th>
+   <th>DNS Server</th>
+   <th>Converts a name like www.google.com to IP Address - 11.12.13.14</th>
+ </tr>
+ <tr>
+   <th>3</th>
+   <th>Load Balancer</th>
+   <th>Forwards the request among multiple servers</th>
+ </tr>
+ <tr>
+   <th>4</th>
+   <th>Server</th>
+   <th>Responds to client request by doing some computation</th>
+ </tr>
+ <tr>
+   <th>5</th>
+   <th>Database</th>
+   <th>Persistent storage like MySQL, SQL Server</th>
+ </tr>
+</table>
 </div>
 </body>
 
